@@ -14,3 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+I'm a PhD student based in Amsterdam ([Amsterdam UMC](https://www.amsterdamumc.nl/) and [Amsterdam Institute for Global Health and Development(AIGHD)](https://www.aighd.org/)), working on *Escherichia coli* genomics, with a special focus on antimicrobial resistance. I try to publish a Snakemake pipeline on this GitHub along with every research project. So far, there are:
+
+- A small pipeline to perform hybrid assembly of five *Streptococcus suis* genomes, using Illumina and Nanopore data (https://github.com/boasvdp/MRA_Streptococcus_suis). The *S. suis* strains cover the Dutch population of *S. suis*, and includes some much-used reference strains.
+- An (experimental) pipeline to search for the presence of a given genome in metagenomic data (https://github.com/boasvdp/pyelonephritis). This was used in a study including patients with pyelonephritis symptoms and bacteraemia. Isolates were cultured from the blood and Illumina sequenced, while metagenomic Illumina sequencing was used on the urine. The pipeline tries to match the isolates recovered from blood to the metagenomic urine data.
+- A pipeline to reproduce the results in a paper we will submit soon-ish (URL will follow). The pipeline tries to identify ESBL+ *E. coli* strains that were acquired during international travel, and persisted for more than a year in these travellers. We also identify characteristics of the long-term colonising strains by comparing them to short-term colonising strains from similar travellers.
+
+My GitHub also contains some tools from other, with slight modifications:
+- snp-dists (https://github.com/boasvdp/snp-dists), forked from https://github.com/tseemann/snp-dists. This version implements an experimental option which prints the length of alignment between pairs of isolates, using the `-l` flag. Together with the normal output of snp-dists, this allows easily calculating SNPs / 1,000,000 aligned bases, for example. We found this especially relevant when mapping diverse *E. coli* genomes to a single reference genome, where samples from the same sequence type had up to 4 million aligned bp, while most other samples only aligned 1 million bp.
+
