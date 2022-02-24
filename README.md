@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 I'm a postdoc based in Amsterdam, the Netherlands at the [Amsterdam UMC](https://www.amsterdamumc.nl/) and the [Netherlands Reference Laboratory for Bacterial Meningitis (NRLBM)](https://www.amc.nl/web/specialismen/medische-microbiologie-infectiepreventie-1/medische-microbiologie-infectiepreventie-1/nederlands-referentie-laboratorium-voor-bacteriele-meningitis-nrlbm.htm) (page in Dutch). I apply genomic methods to answer questions on bacterial meningitis, usually with a Snakemake pipelines for each project.
 
-Additionally, I'm finishing up my PhD at [Amsterdam Institute for Global Health and Development(AIGHD)](https://www.aighd.org/)), which focused on *Escherichia coli* genomics and antimicrobial resistance.
+Additionally, I'm finishing up my PhD at [Amsterdam Institute for Global Health and Development(AIGHD)](https://www.aighd.org/), which focused on *Escherichia coli* genomics and antimicrobial resistance.
